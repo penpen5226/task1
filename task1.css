@@ -73,9 +73,12 @@ footer {
   }
   .step-box {
     width: 90%;
-    margin-right: 30px;
+    margin: 0 auto;
     padding: 10px;
     background-color: #eee;
+    margin-bottom: 20px;
   }
-  
+  .step-box:last-child {
+    margin: 0 auto;
+  }
 }
